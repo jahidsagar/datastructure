@@ -14,7 +14,7 @@ int main()
     }
     for (i = 0; i < k-1; i++)
     {
-        for (int j = i+1; j < k; j++)
+        for (int j = i+1; j < k-i; j++)
           if (arr[j] < arr[i])
           {
               int temp = arr[j];
